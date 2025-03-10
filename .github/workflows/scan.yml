@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ubuntu:20.04'
+          default: 'ubuntu:18.04'
 
 # env:
 #   REGISTRY: ghcr.io
