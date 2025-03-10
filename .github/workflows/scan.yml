@@ -47,7 +47,7 @@ jobs:
       - name: Docker Scout
         uses: docker/scout-action@v1
         with:
-          command: cves,recommendations,compare,sbom
+          command: cves,sbom
           image: ${{ github.event.inputs.docker_image }}
           #only-severities: critical,high # only show critical and high CVEs
           #only-fixed: true # filter to fixed CVEs
