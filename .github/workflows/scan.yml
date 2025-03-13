@@ -8,7 +8,8 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'emil122/my-custom-image:1.0'
+          default: 'mongo:7.0.17'
+          # emil122/my-custom-image:1.0
 
 # env:
 #   REGISTRY: ghcr.io
