@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mongo:7.0.17'
+          default: 'mongo:7.0.0'
           # emil122/my-custom-image:1.0
 
 # env:
